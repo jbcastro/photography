@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    
+}
+
+
+body {
+    font-size: 100%;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+#container {
+    width: 100%;
+    max-width: 1800px;
+}
+
+
+
+header {
+   width: 100%;
+    padding-top: 2%
+    
+  
+}
+
+.left{
+    width:23.404%;
+    float: left;
+    margin-right: 2.128%;
+   
+}
+.center {
+    width:48.936%;
+    float: left;
+    margin-right: 2.128%;
+   
+
+}
+
+.right{
+    width:23.404%;
+    float: right;
+    
+}
+
+/*
+.third {
+    width: 30.851064%;
+    
+    
+   
+}
+.third:nth-child(1){
+     margin-right: 3.723404%;
+    float: left;
+   
+}
+.third:nth-child(2){
+     margin-right: 3.723404%;
+     
+    float:left;
+   
+}
+.third:nth-child(3){
+    float: right;
+}
+*/
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+nav {
+    
+    height: auto;
+    text-transform: uppercase;
+    
+   
+    top:0;
+    z-index: 10;
+    text-align: center;
+}
+nav ul {
+    
+    
+}
+
+nav li {
+
+    list-style: none;
+    width: 5.141844%%;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    display: inline;
+   
+}
+
+nav li a{
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 3%
+}
+nav li a:hover {
+  		text-decoration: underline;
+	}
+
+
+
+main {
+    clear: both;
+    max-width: 100%;
+    padding:10%;
+    
+    
+}
+
+aside, aside2 {
+  
+    background-color:#F3F5EC;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 5%;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    display: block;
+    margin-bottom: 10%
+    
+
+    
+}
+
+.thumb {
+    
+
+   
+    float: left;
+    
+}
+.thumb img{
+     width: 300px;
+    padding: 5%;
+    height: auto;
+}
+.asidetext{
+   padding-left: 40%;
+}
+.aside h1{
+    
+    float: right;
+    clear: both;
+    
+}
+.aside p{
+    float: right;
+    
+}
+
+.thumb2 {
+    
+
+   
+    float: right;
+    
+}
+.thumb2 img{
+     width: 300px;
+    padding: 5%;
+    height: auto;
+}
+.asidetext2{
+   padding-right: 40%;
+}
+.aside2 h1{
+    
+    float: left;
+    clear: both;
+    
+}
+.aside2 p{
+    float: left;
+    
+}
+
+.banner {
+    clear:both;
+    max-width: 100%;
+}
+
+.slides {
+    width: auto
+}
+footer{
+    clear: both;
+}
+
+
+/*++++++++++++++++++++++Typography++++++++++++++++++++++++++*/
+
+h1 {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+
